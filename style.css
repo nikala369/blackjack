@@ -183,7 +183,10 @@ table, th, td{
 
 @media only screen and (max-width: 600px) {
   .flex-blackjack-row-1 {
-    height: 275px;
+    height: 310px;
+  }
+  img { 
+    width: 60px;
   }
 }
 
