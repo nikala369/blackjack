@@ -258,5 +258,11 @@ table, th, td{
   #imageid{
     width: 86px;
   }
+  .header1 {
+    height: 110px;
+  }
+  .lets-play-btn { 
+    width: 300px;
+  }
 }
 
