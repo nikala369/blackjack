@@ -48,17 +48,21 @@ a {
   margin-top: -25px;
 }
 .par-control1, .par-control2{
-  color: #D7C49EFF;
   font-size: 19px;
   transform: rotate(15deg);
 }
-.par-control3, .par-control4{
+.links1{ 
   color: #D7C49EFF;
+}
+.links1:hover {
+  color: beige;
+  text-decoration: none;
+}
+.par-control3, .par-control4{
   font-size: 19px;
   transform: rotate(-15deg);
 }
 .par-control5{
-  color: #D7C49EFF;
   font-size: 19px;
 }
 .par-control1:hover{
@@ -81,6 +85,7 @@ a {
   color:white;
   cursor: pointer;
 }
+
 .lets-play-btn {
   display: block;
   background-color: rgb(206, 159, 98);
@@ -120,8 +125,71 @@ a {
 */
 .section2 {
   width: 100%;
-  height: 350px;
+  height: 500px;
+  background-color: beige;
 }
+
+.heading2 {
+  text-align: center;
+  padding: 17.5px;
+  font-family:'Courier New', Courier, monospace;
+  font-weight: 600;
+}
+.paragrap-flex {
+  display: flex;
+  padding: 15px;
+}
+.paragrap-flex-1 {
+  padding: 7.5px;
+}
+.paragrap-flex-2 {
+  padding: 7.5px;
+}
+.ul-style {
+  display: block;
+  text-align: center;
+  word-wrap: break-word;
+  list-style-type:none;
+  color:rgb(0, 0, 0);
+  font-size: 15px;
+  font-weight: 700;
+  padding: 20px;
+}
+
+/*
+  section 2 end
+*/
+
+/*section 3 start*/
+.section3 {
+  background-color: rgb(163, 163, 207);
+}
+.paragrap-blackjack {
+  text-align: center;
+  padding: 10px;
+  word-break: normal;
+  margin-top: 10px;
+}
+
+.link-wikipedia {
+  color: black;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+.link-wikipedia:hover {
+  text-decoration: none;
+  color: rgb(64, 85, 131);
+}
+.article-border {
+  border: 1px solid black;
+  width: 70%;
+  word-wrap: break-word;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+/*Section 3 end*/
 
 .container-1, .container-2, .container-3, .container-4, .container-5{
   border: 1px solid black;
@@ -133,6 +201,7 @@ a {
   background-color: black;
   color: aliceblue;
 }
+
 
 .flex-box-container-1, .flex-box-container-2, .flex-box-rps, .flex-box-pick-color,
 .flex-blackjack-row-1, .flex-blackjack-row-2, .flex-blackjack-row-3{
@@ -231,6 +300,17 @@ table, th, td{
     box-shadow: 0px 10px 50px rgba(37, 50, 233, 1);
 }
 
+/*Media Queries */
+@media only screen and (max-width: 1150px) {
+  .section2 {
+    height: 700px;
+  }
+}
+@media only screen and (max-width: 968px) {
+  .section2 {
+    height: 700px;
+  }
+}
 @media only screen and (max-width: 750px) {
   .paragrap-control-flex {
     display:flex;
@@ -249,6 +329,9 @@ table, th, td{
   .lets-play-btn {
     margin-top: 50px;
   }
+  .section2 {
+    height: 820px;
+  }
 }
 
 @media only screen and (max-width: 650px) {
@@ -264,5 +347,34 @@ table, th, td{
   .header1{
     height:110px;
   }
+  .section2 { 
+    height: 930px;
+  }
 }
-
+@media only screen and (max-width: 500px) {
+  .ul-style {
+    padding:0px;
+  }
+  .section2 {
+    height: 1100px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .ul-style {
+    display: none;
+  }
+  .section2 {
+    height: 1000px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .section2 {
+    height: 1200px;
+  }
+  .flex-blackjack-row-1 {
+    height: 500px
+  }
+  #imageid{
+    width: 80px;
+  }
+}
