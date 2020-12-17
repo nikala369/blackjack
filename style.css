@@ -3,6 +3,7 @@
 }
 body{
   margin-top:50px;
+  background-color: rgb(241, 248, 253);
   margin: 0px;
   padding:0px;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -161,8 +162,8 @@ a {
 */
 
 /*section 3 start*/
-.section3 {
-  background-color: rgb(163, 163, 207);
+.section-3 {
+  background-color: rgb(241, 248, 253);
 }
 .paragrap-blackjack {
   text-align: center;
@@ -179,14 +180,14 @@ a {
 }
 .link-wikipedia:hover {
   text-decoration: none;
-  color: rgb(64, 85, 131);
+  color: rgb(92, 120, 175);
 }
 .article-border {
   border: 1px solid black;
   width: 70%;
   word-wrap: break-word;
   margin: 0 auto;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 /*Section 3 end*/
@@ -378,3 +379,9 @@ table, th, td{
     width: 80px;
   }
 }
+
+
+
+
+
+
